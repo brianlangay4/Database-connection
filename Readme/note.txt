@@ -1,0 +1,16 @@
+To do 
+1.need to get the jar Executable file into your project //named mysql connector
+available at this link https://cdn.mysql.com//Downloads/Connector-J/mysql-connector-java-8.0.30.zip
+2.then update or add the project module add this connector to dependency from your project structure
+3.then code is commented for each line used
+4.create a database connection from mysql and do the following
+*create a new schema in your mysql (workbench)
+//i provided some images to sho you the my database info in my workbench and the result of the code
+*then create a table then add the values
+*then from your sql workbench the schema name and table name will be used in the java code and preview the table
+* default connection  url from the mysql root@127.0.0.1:3306
+***most important do not leave out the jdbc:mysql out this one of key to this connection***
+*jdbc:mysql is default connection identifier for the database connection method used in this
+* this is my the connection pattern "jdbc:mysql://root@127.0.0.1:3306/user", "root", "toor"
+* this is default connection pattern  "jdbc:mysql://<url connection/name of the schema>", "<user>", "<pass>"
+
